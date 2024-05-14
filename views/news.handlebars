@@ -1,0 +1,14 @@
+<div>
+    <h3> News </h3>
+</div>
+{{#each newsData}}
+<div>
+    <h3>{{ title }}</h3>
+    <img
+      src={{ urlToImage }} 
+      width="250"
+      height="250"
+    />
+    <p>{{ description }}</p>
+</div>
+{{/each}}

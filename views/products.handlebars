@@ -1,0 +1,16 @@
+<div>
+    <h1>Products</h1>
+        {{#each productData}}
+            <div>
+                <h3>{{title}}</h3>
+                <img 
+                    src={{image }}
+                    alt="img"
+                    width="250"
+                    height="250"
+                />
+                <p>{{ description }}</p>
+                <strong>{{ price }} </strong>
+            </div>
+        {{/each}}
+</div>
